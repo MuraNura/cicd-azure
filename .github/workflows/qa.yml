@@ -4,8 +4,7 @@ on:
   pull_request:
     branches:
       - qa
-    types:
-      - closed
+
 
 jobs:
   build_and_deploy_job:
